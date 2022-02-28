@@ -1,0 +1,203 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+strong{
+  font-weight: 400;
+}
+cite,em{
+  font-style: italic;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.conteiner{
+   max-width:1000px;
+   margin:0 auto;
+}
+.background{
+   text-align: center;
+   background-color: rgba(255, 20, 0, 0.75);
+   padding-bottom: 20px;
+}
+
+h1 {
+   font:700 28px/50px "Montserrat",Arial,sans-serif;
+   color: white;
+}
+
+h2 {
+   font:700 16px/24px "Montserrat",Arial,sans-serif;
+   color: white;
+   margin-bottom: 10px;
+}
+
+body {
+   font-family: "Montserrat",Arial,sans-serif;
+}
+
+.todoList_add{
+   padding: 0px 40px;
+}
+.todoList_add:after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+
+.task_text {
+   margin: 0;
+   border: none;
+   border-radius: 0;
+   width: 75%;
+   padding: 10px;
+   float: left;
+   /* font-size: 16px; */
+   font-weight: 400;
+   
+}
+
+.add_task {
+   padding: 10px;
+   width: 25%;
+   background: #d9d9d9;
+   color: #555;
+   float: left;
+   text-align: center;
+   cursor: pointer;
+   transition: 0.3s;
+   border: none;
+   border-radius: 0;
+   /* font-size: 16px; */
+   font-weight: 600;
+
+}
+
+.add_task:hover {
+   background-color: #bbb;
+}
+.checked {
+   opacity: 0.4;
+   background: rgba(172, 255, 47, 0.2);
+}
+
+.todo_task{
+   background: #cfcfcf;
+}
+
+.todo_subtask{
+   background: #979797;
+}
+.todo_subsubtask{
+   background: #808080;
+}
+
+
+
+.task_body {
+   display: flex;
+   justify-content: space-between;
+   padding: 10px 20px;
+   border-bottom: 1px solid white;
+}
+
+
+.task_filler {
+   max-width: 350px;
+}
+
+.subtask_filler{
+   max-width: 350px;
+   min-width: 200px;
+   padding-left: 2em;
+   
+}
+.subsubtask_filler{
+   max-width: 350px;
+   min-width: 170px;
+   padding-left: 4em;
+   
+}
+
+
+label{
+   word-break:break-all;
+}
+
+.subtasks_list{
+
+   background-color: white;
+}
+
+   
+
+.delete_button {
+   font-size: 20px;
+   padding:8px 15px 10px 15px;
+   cursor: pointer;
+   text-decoration:none;
+}
+
+.add_button {
+   font-size: 20px;
+   padding:8px 15px 10px 15px;
+   cursor: pointer;
+   
+}
+
+.add_button:hover {
+   background-color: #076e00;
+   color: white;
+}
+ 
+.delete_button:hover {
+   background-color: #f44336;
+   color: white;
+}
+
+

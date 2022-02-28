@@ -1,0 +1,119 @@
+h1 {
+   text-align: center;
+}
+
+ul {
+   padding: 0px;
+}
+
+form {
+   text-align: center;
+   font-size: 30px;
+}
+
+#timer {
+   text-align: center;
+   font-size: 40px;
+   margin-top: 40px;
+}
+
+.game_word{
+   display: none;
+   text-align: center;
+}
+
+.game_word .vowel, .game_word .vowel_fake {
+   cursor: pointer;
+   color: #b72902;
+   border: none;
+}
+
+.game_word.active {
+   display: block;
+   font-size: 45px;
+}
+
+
+
+/* .
+.active_img{
+	width: 420px;
+	height: 420px;
+	overflow: hidden;
+} */
+.acute {
+   color: #F30;
+   /* font-family: "Times New Roman", Times, serif; */
+   /* font-style: italic; */
+   font-weight: 200;
+   margin: -.15em 0 0 -.39em;
+   position: absolute;
+}
+
+.acute.big {
+   margin: -.36em 0 0 -.6em;
+}
+
+.acute-e.big {
+   margin-left: -.36em;
+}
+
+.game_word .vowel_correct .acute {
+   display:inline-block;
+}
+
+.game_word .acute {
+   display: none;
+}
+
+.game_word .vowel:hover .acute {
+	display: inline-block;
+}
+
+.incorrect, .game_word .vowel:hover, .game_word .vowel_correct {
+   color: #f93d0d;
+}
+
+
+.mnemonics-step {
+   margin-bottom: 10px;
+   display: none;
+   text-align: center;
+   font-size: 20px;
+}
+
+#ppdiv {
+   text-align: center;
+   margin-top: 50px;
+}
+
+#play_pause {
+   display: none;
+   
+}
+
+#perfect {
+   text-align: center;
+   font-size: 28px;
+   text-decoration: chartreuse;
+   font-weight: bold;
+}
+
+#scores {
+   text-align: center;
+   padding: 20px 0px;
+   font-size: 24px;
+   display: none;
+}
+
+.corr, .incorr, .dots {
+   display: inline-block;
+}
+
+#res {text-align: center; display: none;}
+.res_stat {text-align: center; padding: 20px 0px;font-size: 28px;}
+.res_stat span {font-size: 50px; color: #333; font-weight: bold;}
+.corr {color: green;}
+.incorr{color: red;}
+#res_navi {display: none;text-align: center; padding: 20px;font-size: 20px;}
+.backtosettings_type_button{text-decoration: none;}
